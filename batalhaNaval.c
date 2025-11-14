@@ -24,6 +24,16 @@ int main() {
     for (int j = 5; j <= 7; j++){
         tabuleiro[j][7] = 3;
     }
+
+
+    // linhas diagonal
+    for (int i = 6, j = 1; i <=8; i++, j++){
+        tabuleiro[i][j] = 3;
+    }
+
+    for (int i = 0, j = 2; i <=2; i++, j--){
+        tabuleiro[i][j] = 3;
+    }
     
     
     //nome do jogo
